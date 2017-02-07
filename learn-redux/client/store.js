@@ -14,8 +14,10 @@ const defaultState = {
   comments
 };
 
+// create store with redux
 const store = createStore(rootReducer, defaultState);
 
+// use browserHistory with react router and redux
 export const history = syncHistoryWithStore(browserHistory, store);
 
 export default store;
