@@ -2,7 +2,6 @@
 // 1) The Action (info about what happened)
 // 2) Current State
 function comments(state=[], action) {
-  console.log(state, action);
   return state;
 }
 
